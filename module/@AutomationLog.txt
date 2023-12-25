@@ -1,0 +1,14 @@
+
+item 3 in _argtypes_ passes a union by value, which is unsupported.
+Can not load UIAutomationCore.dll.
+1, You may need to install Windows Update KB971513 if your OS is Windows XP, see https://github.com/yinkaisheng/WindowsUpdateKB971513ForIUIAutomation
+2, you need to use an UIAutomationInitializerInThread object if use uiautomation in a thread, see demos/uiautomation_in_thread.py
+
+item 1 in _argtypes_ passes a union by value, which is unsupported.
+Can not load UIAutomationCore.dll.
+1, You may need to install Windows Update KB971513 if your OS is Windows XP, see https://github.com/yinkaisheng/WindowsUpdateKB971513ForIUIAutomation
+2, you need to use an UIAutomationInitializerInThread object if use uiautomation in a thread, see demos/uiautomation_in_thread.py
+2023-09-06 17:14:56.066 New_PCRB.py[12] <module> -> Find Control Timeout(10s): {AutomationId: '1148', FrameworkId: 'Win32', ControlType: EditControl}
+2023-09-07 10:36:20.581 New_PCRB.py[33] <module> -> Find Control Timeout(10s): {AutomationId: '1148', FrameworkId: 'Win32', ControlType: EditControl}
+2023-09-07 10:47:58.240 New_PCRB.py[33] <module> -> Find Control Timeout(10s): {AutomationId: '1148', FrameworkId: 'Win32', ControlType: EditControl}
+2023-09-07 10:49:08.304 New_PCRB.py[33] <module> -> Find Control Timeout(10s): {AutomationId: '1148', FrameworkId: 'Win32', ControlType: EditControl}
